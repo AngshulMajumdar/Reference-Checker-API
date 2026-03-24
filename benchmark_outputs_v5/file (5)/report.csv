@@ -1,0 +1,11 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+fake_plausible_t4a,unresolved,0.0,no candidates,,,0
+hybrid_corrupt_t4b,unresolved,0.0,no candidates,,,0
+near_miss_t4c,review_needed,0.9052688172043011,ambiguous or unsafe match,Modular elliptic curves and Fermat's last theorem,gold,0
+duplicate_same_t4d,llm_adjudicated,0.8447231715652769,"title=0.99, high_author_bonus",Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,3
+duplicate_same_t4e,llm_adjudicated,0.8447231715652769,"title=0.99, high_author_bonus",Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,3
+fake_title_t4f,unresolved,0.0,no candidates,,,0
+wiles_near_miss_journal,high_confidence_corrected,0.9800000000000002,"title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",Modular forms and elliptic curves,gold,2
+tao_fake_collaborator,unresolved,0.0,no candidates,,,0
+hybrid_multi_error_t4i,unresolved,0.4444060150375941,low-confidence or likely fake/near-miss,On Glaisher's Partition Theorem,gold,0
+perelman_tao_mix_t4j,unresolved,0.0,no candidates,,,0

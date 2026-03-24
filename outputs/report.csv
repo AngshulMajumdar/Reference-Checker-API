@@ -1,0 +1,4 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+doe2022theory,llm_adjudicated,0.7775,LLM selected candidate 0,A Theory of Deep Learning,mock,5
+maj2021pr,llm_adjudicated,0.6382342657342657,LLM selected candidate 0,Pattern Recognition with Sparse Methods,mock,5
+bad2020unknown,unresolved,0.0,no candidates,,,0

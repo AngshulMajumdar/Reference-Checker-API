@@ -1,0 +1,521 @@
+[
+  {
+    "entry_key": "deeplearning_goodfellow_fake_collision",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 0.9900000000000001,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Deep Learning",
+        "authors": [
+          "Ian Goodfellow",
+          "Yoshua Bengio",
+          "Aaron Courville"
+        ],
+        "year": "2016",
+        "venue": "MIT Press",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron",
+          "new": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "MIT Press"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.9900000000000001
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "deeplearning_goodfellow_fake_collision",
+      "ENTRYTYPE": "misc",
+      "author": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron",
+      "title": "Deep Learning",
+      "year": "2016",
+      "note": "MIT Press book – but test against possible other same-title papers"
+    },
+    "corrected": {
+      "ID": "deeplearning_goodfellow_fake_collision",
+      "ENTRYTYPE": "misc",
+      "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville",
+      "title": "Deep Learning",
+      "year": "2016",
+      "note": "MIT Press book – but test against possible other same-title papers",
+      "booktitle": "MIT Press"
+    }
+  },
+  {
+    "entry_key": "wiles1995modular_t3a",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.2307/2118559"
+        },
+        "pages": {
+          "old": "",
+          "new": "443--551"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "wiles1995modular_t3a",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "year": "1995"
+    },
+    "corrected": {
+      "ID": "wiles1995modular_t3a",
+      "ENTRYTYPE": "article",
+      "author": "Andrew Wiles",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "year": "1995",
+      "doi": "10.2307/2118559",
+      "pages": "443--551"
+    }
+  },
+  {
+    "entry_key": "tao_perelman_notes",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Notes on Perelman's papers",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao_perelman_notes",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Notes on Perelman's papers",
+      "year": "2006",
+      "note": "related to math/0605667 – flag as possible duplicate/alt version"
+    },
+    "corrected": {
+      "ID": "tao_perelman_notes",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Notes on Perelman's papers",
+      "year": "2006",
+      "note": "related to math/0605667 – flag as possible duplicate/alt version",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "tao_namevar_t3b",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "What is good mathematics?",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2007",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, T.",
+          "new": "Terence Tao"
+        },
+        "journal": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "eprint": "math/0702396",
+      "year": "2007",
+      "title": "What is good mathematics?",
+      "author": "Tao, T.",
+      "ENTRYTYPE": "article",
+      "ID": "tao_namevar_t3b"
+    },
+    "corrected": {
+      "ID": "tao_namevar_t3b",
+      "ENTRYTYPE": "article",
+      "eprint": "math/0702396",
+      "year": "2007",
+      "title": "What is good mathematics?",
+      "author": "Terence Tao",
+      "journal": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "perelman_original_t3c",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "The entropy formula for the Ricci flow and its geometric applications",
+        "authors": [
+          "Grigori Perelman"
+        ],
+        "year": "2002",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Perelman, Grigori",
+          "new": "Grigori Perelman"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "perelman_original_t3c",
+      "ENTRYTYPE": "misc",
+      "author": "Perelman, Grigori",
+      "title": "The entropy formula for the Ricci flow and its geometric applications",
+      "year": "2002",
+      "note": "arXiv:math/0211159 – disambiguate from Tao's expository"
+    },
+    "corrected": {
+      "ID": "perelman_original_t3c",
+      "ENTRYTYPE": "misc",
+      "author": "Grigori Perelman",
+      "title": "The entropy formula for the Ricci flow and its geometric applications",
+      "year": "2002",
+      "note": "arXiv:math/0211159 – disambiguate from Tao's expository",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "taoVu2006additive_t3d",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Additive Combinatorics",
+        "authors": [
+          "Terence Tao",
+          "Van H. Vu"
+        ],
+        "year": "2006",
+        "venue": "Cambridge University Press",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Vu, Van H. and Tao, Terence",
+          "new": "Terence Tao and Van H. Vu"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Cambridge University Press"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "taoVu2006additive_t3d",
+      "ENTRYTYPE": "book",
+      "author": "Vu, Van H. and Tao, Terence",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006"
+    },
+    "corrected": {
+      "ID": "taoVu2006additive_t3d",
+      "ENTRYTYPE": "book",
+      "author": "Terence Tao and Van H. Vu",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006",
+      "booktitle": "Cambridge University Press"
+    }
+  },
+  {
+    "entry_key": "ramanujan_many_titles",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "ID": "ramanujan_many_titles",
+      "ENTRYTYPE": "misc",
+      "author": "Guillera, Jes\\'us",
+      "title": "Ramanujan-type series for 1/pi",
+      "year": "{2018}  % slight variant title"
+    },
+    "corrected": {
+      "ID": "ramanujan_many_titles",
+      "ENTRYTYPE": "misc",
+      "author": "Guillera, Jes\\'us",
+      "title": "Ramanujan-type series for 1/pi",
+      "year": "{2018}  % slight variant title"
+    }
+  },
+  {
+    "entry_key": "wiles_taylor_collaborative",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Ring theoretic properties of certain Hecke algebras",
+        "authors": [
+          "Richard Taylor",
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": null,
+        "pages": null,
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Taylor, Richard and Wiles, Andrew",
+          "new": "Richard Taylor and Andrew Wiles"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "wiles_taylor_collaborative",
+      "ENTRYTYPE": "article",
+      "author": "Taylor, Richard and Wiles, Andrew",
+      "title": "Ring theoretic properties of certain Hecke algebras",
+      "journal": "Annals of Mathematics",
+      "year": "1995"
+    },
+    "corrected": {
+      "ID": "wiles_taylor_collaborative",
+      "ENTRYTYPE": "article",
+      "author": "Richard Taylor and Andrew Wiles",
+      "title": "Ring theoretic properties of certain Hecke algebras",
+      "journal": "Annals of Mathematics",
+      "year": "1995"
+    }
+  },
+  {
+    "entry_key": "tao_analysis_paper",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Mathematical exploration and discovery at scale",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "{Tao, Terrence},  % misspelling",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao_analysis_paper",
+      "ENTRYTYPE": "misc",
+      "author": "{Tao, Terrence},  % misspelling",
+      "title": "Mathematical exploration and discovery at scale",
+      "year": "2025",
+      "eprint": "2511.02864"
+    },
+    "corrected": {
+      "ID": "tao_analysis_paper",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Mathematical exploration and discovery at scale",
+      "year": "2025",
+      "eprint": "2511.02864",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "andrews_partition_many",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.9100000000000001,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Euler's partition theorem and generalizations",
+        "authors": [
+          "George E. Andrews"
+        ],
+        "year": "1970",
+        "venue": "journal",
+        "doi": null,
+        "pages": null,
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",
+      "change_set": {
+        "author": {
+          "old": "Andrews, George E.",
+          "new": "George E. Andrews"
+        },
+        "year": {
+          "old": "1970s",
+          "new": "1970"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "journal"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.9100000000000001
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "andrews_partition_many",
+      "ENTRYTYPE": "misc",
+      "author": "Andrews, George E.",
+      "title": "Euler's partition theorem and generalizations",
+      "year": "1970s",
+      "note": "flag possible mismatch"
+    },
+    "corrected": {
+      "ID": "andrews_partition_many",
+      "ENTRYTYPE": "misc",
+      "author": "George E. Andrews",
+      "title": "Euler's partition theorem and generalizations",
+      "year": "1970",
+      "note": "flag possible mismatch",
+      "booktitle": "journal"
+    }
+  }
+]

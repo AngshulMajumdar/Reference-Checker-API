@@ -1,0 +1,162 @@
+[
+  {
+    "entry_key": "doe2022theory",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.7775,
+      "selected_candidate": {
+        "source": "mock",
+        "title": "A Theory of Deep Learning",
+        "authors": [
+          "Jane Doe",
+          "John Smith"
+        ],
+        "year": "2022",
+        "venue": "Journal of Machine Ideas",
+        "doi": "10.1000/jmi.2022.1",
+        "pages": "1-10",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "LLM selected candidate 0",
+      "change_set": {
+        "title": {
+          "old": "A theory of deep learning",
+          "new": "A Theory of Deep Learning"
+        },
+        "author": {
+          "old": "Doe, Jane and Smith, John",
+          "new": "Jane Doe and John Smith"
+        },
+        "journal": {
+          "old": "J. Machine Ideas",
+          "new": "Journal of Machine Ideas"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.1000/jmi.2022.1"
+        },
+        "pages": {
+          "old": "",
+          "new": "1-10"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.7775
+        ]
+      }
+    },
+    "original": {
+      "journal": "J. Machine Ideas",
+      "year": "2022",
+      "author": "Doe, Jane and Smith, John",
+      "title": "A theory of deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "doe2022theory"
+    },
+    "corrected": {
+      "ID": "doe2022theory",
+      "ENTRYTYPE": "article",
+      "journal": "Journal of Machine Ideas",
+      "year": "2022",
+      "author": "Jane Doe and John Smith",
+      "title": "A Theory of Deep Learning",
+      "doi": "10.1000/jmi.2022.1",
+      "pages": "1-10"
+    }
+  },
+  {
+    "entry_key": "maj2021pr",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.6382342657342657,
+      "selected_candidate": {
+        "source": "mock",
+        "title": "Pattern Recognition with Sparse Methods",
+        "authors": [
+          "A. Majumdar"
+        ],
+        "year": "2021",
+        "venue": "Pattern Analysis Letters",
+        "doi": "10.1000/pal.2021.5",
+        "pages": "20-30",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "LLM selected candidate 0",
+      "change_set": {
+        "title": {
+          "old": "Pattern recognitoin with sparse methods",
+          "new": "Pattern Recognition with Sparse Methods"
+        },
+        "author": {
+          "old": "Majumdar, A.",
+          "new": "A. Majumdar"
+        },
+        "journal": {
+          "old": "Pat. Anal. Lett.",
+          "new": "Pattern Analysis Letters"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.1000/pal.2021.5"
+        },
+        "pages": {
+          "old": "",
+          "new": "20-30"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.6382342657342657
+        ]
+      }
+    },
+    "original": {
+      "journal": "Pat. Anal. Lett.",
+      "year": "2021",
+      "author": "Majumdar, A.",
+      "title": "Pattern recognitoin with sparse methods",
+      "ENTRYTYPE": "article",
+      "ID": "maj2021pr"
+    },
+    "corrected": {
+      "ID": "maj2021pr",
+      "ENTRYTYPE": "article",
+      "journal": "Pattern Analysis Letters",
+      "year": "2021",
+      "author": "A. Majumdar",
+      "title": "Pattern Recognition with Sparse Methods",
+      "doi": "10.1000/pal.2021.5",
+      "pages": "20-30"
+    }
+  },
+  {
+    "entry_key": "bad2020unknown",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "booktitle": "Unknown Conf",
+      "year": "2020",
+      "author": "Nobody, N.",
+      "title": "Totally unrelated title",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bad2020unknown"
+    },
+    "corrected": {
+      "booktitle": "Unknown Conf",
+      "year": "2020",
+      "author": "Nobody, N.",
+      "title": "Totally unrelated title",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bad2020unknown"
+    }
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "entry_key": "wiles1995modular",
+    "decision": {
+      "status": "exact_verified",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "doi_match, title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "doi": "10.2307/2118559",
+      "year": "1995",
+      "pages": "443--551",
+      "number": "3",
+      "volume": "141",
+      "journal": "Annals of Mathematics",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "author": "Wiles, Andrew",
+      "ENTRYTYPE": "article",
+      "ID": "wiles1995modular"
+    },
+    "corrected": {
+      "ID": "wiles1995modular",
+      "ENTRYTYPE": "article",
+      "doi": "10.2307/2118559",
+      "year": "1995",
+      "pages": "443--551",
+      "number": "3",
+      "volume": "141",
+      "journal": "Annals of Mathematics",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "author": "Andrew Wiles"
+    }
+  },
+  {
+    "entry_key": "tao2006perelman",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.8447231715652769,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title=0.99, high_author_bonus",
+      "change_set": {
+        "title": {
+          "old": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+          "new": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        },
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.8447231715652769
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "primaryclass": "math.DG",
+      "archiveprefix": "arXiv",
+      "eprint": "math/0610903",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2006perelman"
+    },
+    "corrected": {
+      "ID": "tao2006perelman",
+      "ENTRYTYPE": "misc",
+      "primaryclass": "math.DG",
+      "archiveprefix": "arXiv",
+      "eprint": "math/0610903",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+      "author": "Terence Tao",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "tao2006additive",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Additive Combinatorics",
+        "authors": [
+          "Terence Tao",
+          "Van H. Vu"
+        ],
+        "year": "2006",
+        "venue": "Cambridge University Press",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence and Vu, Van H.",
+          "new": "Terence Tao and Van H. Vu"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Cambridge University Press"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "volume": "105",
+      "series": "Cambridge Studies in Advanced Mathematics",
+      "year": "2006",
+      "publisher": "Cambridge University Press",
+      "title": "Additive Combinatorics",
+      "author": "Tao, Terence and Vu, Van H.",
+      "ENTRYTYPE": "book",
+      "ID": "tao2006additive"
+    },
+    "corrected": {
+      "ID": "tao2006additive",
+      "ENTRYTYPE": "book",
+      "volume": "105",
+      "series": "Cambridge Studies in Advanced Mathematics",
+      "year": "2006",
+      "publisher": "Cambridge University Press",
+      "title": "Additive Combinatorics",
+      "author": "Terence Tao and Van H. Vu",
+      "booktitle": "Cambridge University Press"
+    }
+  },
+  {
+    "entry_key": "andrews2025glaisher",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "On Glaisher's Partition Theorem",
+        "authors": [
+          "George E. Andrews",
+          "Aritram Dhar"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Andrews, George E. and Dhar, Aritram",
+          "new": "George E. Andrews and Aritram Dhar"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "archiveprefix": "arXiv",
+      "eprint": "2512.12346",
+      "year": "2025",
+      "journal": "arXiv preprint",
+      "title": "On Glaisher's Partition Theorem",
+      "author": "Andrews, George E. and Dhar, Aritram",
+      "ENTRYTYPE": "article",
+      "ID": "andrews2025glaisher"
+    },
+    "corrected": {
+      "ID": "andrews2025glaisher",
+      "ENTRYTYPE": "article",
+      "archiveprefix": "arXiv",
+      "eprint": "2512.12346",
+      "year": "2025",
+      "journal": "arXiv preprint",
+      "title": "On Glaisher's Partition Theorem",
+      "author": "George E. Andrews and Aritram Dhar"
+    }
+  },
+  {
+    "entry_key": "tao2025sumdiff",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "primaryclass": "math.CO",
+      "archiveprefix": "arXiv",
+      "eprint": "2511.15135",
+      "year": "2025",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2025sumdiff"
+    },
+    "corrected": {
+      "ID": "tao2025sumdiff",
+      "ENTRYTYPE": "misc",
+      "primaryclass": "math.CO",
+      "archiveprefix": "arXiv",
+      "eprint": "2511.15135",
+      "year": "2025",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "author": "Terence Tao",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "apostol1974mathematical",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Mathematical Analysis",
+        "authors": [
+          "Tom M. Apostol"
+        ],
+        "year": "1974",
+        "venue": "Addison-Wesley",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Apostol, Tom M.",
+          "new": "Tom M. Apostol"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Addison-Wesley"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "year": "1974",
+      "publisher": "Addison-Wesley",
+      "edition": "2nd",
+      "title": "Mathematical Analysis",
+      "author": "Apostol, Tom M.",
+      "ENTRYTYPE": "book",
+      "ID": "apostol1974mathematical"
+    },
+    "corrected": {
+      "ID": "apostol1974mathematical",
+      "ENTRYTYPE": "book",
+      "year": "1974",
+      "publisher": "Addison-Wesley",
+      "edition": "2nd",
+      "title": "Mathematical Analysis",
+      "author": "Tom M. Apostol",
+      "booktitle": "Addison-Wesley"
+    }
+  },
+  {
+    "entry_key": "guillera2018ramanujan",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.917142857142857,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "A method for proving Ramanujan series for 1/pi",
+        "authors": [
+          "Jesus Guillera"
+        ],
+        "year": "2018",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title=1.00, high_author_bonus",
+      "change_set": {
+        "title": {
+          "old": "A method for proving Ramanujan series for $1/\\pi$",
+          "new": "A method for proving Ramanujan series for 1/pi"
+        },
+        "author": {
+          "old": "Guillera, Jes\\'us",
+          "new": "Jesus Guillera"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.917142857142857
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "archiveprefix": "arXiv",
+      "eprint": "1807.07394",
+      "year": "2018",
+      "journal": "arXiv preprint",
+      "title": "A method for proving Ramanujan series for $1/\\pi$",
+      "author": "Guillera, Jes\\'us",
+      "ENTRYTYPE": "article",
+      "ID": "guillera2018ramanujan"
+    },
+    "corrected": {
+      "ID": "guillera2018ramanujan",
+      "ENTRYTYPE": "article",
+      "archiveprefix": "arXiv",
+      "eprint": "1807.07394",
+      "year": "2018",
+      "journal": "arXiv preprint",
+      "title": "A method for proving Ramanujan series for 1/pi",
+      "author": "Jesus Guillera"
+    }
+  },
+  {
+    "entry_key": "tao2007goodmath",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "What is good mathematics?",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2007",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "primaryclass": "math.HO",
+      "archiveprefix": "arXiv",
+      "eprint": "math/0702396",
+      "year": "2007",
+      "title": "What is good mathematics?",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2007goodmath"
+    },
+    "corrected": {
+      "ID": "tao2007goodmath",
+      "ENTRYTYPE": "misc",
+      "primaryclass": "math.HO",
+      "archiveprefix": "arXiv",
+      "eprint": "math/0702396",
+      "year": "2007",
+      "title": "What is good mathematics?",
+      "author": "Terence Tao",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "lacey2006small",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Small Ball and Discrepancy Inequalities",
+        "authors": [
+          "Michael T. Lacey"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Lacey, Michael T.",
+          "new": "Michael T. Lacey"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "archiveprefix": "arXiv",
+      "eprint": "math/0609816",
+      "year": "2006",
+      "journal": "arXiv preprint",
+      "title": "Small Ball and Discrepancy Inequalities",
+      "author": "Lacey, Michael T.",
+      "ENTRYTYPE": "article",
+      "ID": "lacey2006small"
+    },
+    "corrected": {
+      "ID": "lacey2006small",
+      "ENTRYTYPE": "article",
+      "archiveprefix": "arXiv",
+      "eprint": "math/0609816",
+      "year": "2006",
+      "journal": "arXiv preprint",
+      "title": "Small Ball and Discrepancy Inequalities",
+      "author": "Michael T. Lacey"
+    }
+  },
+  {
+    "entry_key": "barany2023tverberg",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.7760000000000001,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Tverberg's theorem, a new proof",
+        "authors": [
+          "Imre Barany"
+        ],
+        "year": "2023",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.7760000000000001
+        ],
+        "top_titles": [
+          "Tverberg's theorem, a new proof"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 1.0,
+        "top_author_similarity": 0.2
+      }
+    },
+    "original": {
+      "primaryclass": "math.CO",
+      "archiveprefix": "arXiv",
+      "eprint": "2308.10105",
+      "year": "2023",
+      "title": "Tverberg's theorem, a new proof",
+      "author": "B\\'ar\\'any, Imre",
+      "ENTRYTYPE": "misc",
+      "ID": "barany2023tverberg"
+    },
+    "corrected": {
+      "primaryclass": "math.CO",
+      "archiveprefix": "arXiv",
+      "eprint": "2308.10105",
+      "year": "2023",
+      "title": "Tverberg's theorem, a new proof",
+      "author": "B\\'ar\\'any, Imre",
+      "ENTRYTYPE": "misc",
+      "ID": "barany2023tverberg"
+    }
+  }
+]

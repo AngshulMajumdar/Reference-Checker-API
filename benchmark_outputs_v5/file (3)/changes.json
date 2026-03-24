@@ -1,0 +1,857 @@
+[
+  {
+    "entry_key": "wiles1995modular_t2a",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 0.9800000000000002,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        },
+        "year": {
+          "old": "{1994}  % should be 1995",
+          "new": "1995"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.2307/2118559"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.9800000000000002
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "wiles1995modular_t2a",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "volume": "141",
+      "number": "3",
+      "pages": "443--551",
+      "year": "{1994}  % should be 1995"
+    },
+    "corrected": {
+      "ID": "wiles1995modular_t2a",
+      "ENTRYTYPE": "article",
+      "author": "Andrew Wiles",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "volume": "141",
+      "number": "3",
+      "pages": "443--551",
+      "year": "1995",
+      "doi": "10.2307/2118559"
+    }
+  },
+  {
+    "entry_key": "tao2006perelman_t2b",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.8505413533834586,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title=0.99, high_author_bonus",
+      "change_set": {
+        "title": {
+          "old": "Perelman's proof of the Poincare conjecture: a non-linear PDE perspective",
+          "new": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        },
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.8505413533834586
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2006perelman_t2b",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Perelman's proof of the Poincare conjecture: a non-linear PDE perspective",
+      "year": "2006",
+      "eprint": "math/0610903",
+      "archivePrefix": "arXiv"
+    },
+    "corrected": {
+      "ID": "tao2006perelman_t2b",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+      "year": "2006",
+      "eprint": "math/0610903",
+      "archivePrefix": "arXiv",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "tao2006additive_t2c",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Additive Combinatorics",
+        "authors": [
+          "Terence Tao",
+          "Van H. Vu"
+        ],
+        "year": "2006",
+        "venue": "Cambridge University Press",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence and Vu, Van H.",
+          "new": "Terence Tao and Van H. Vu"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Cambridge University Press"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2006additive_t2c",
+      "ENTRYTYPE": "book",
+      "author": "Tao, Terence and Vu, Van H.",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006",
+      "pages": "{1--400}  % fake"
+    },
+    "corrected": {
+      "ID": "tao2006additive_t2c",
+      "ENTRYTYPE": "book",
+      "author": "Terence Tao and Van H. Vu",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006",
+      "pages": "{1--400}  % fake",
+      "booktitle": "Cambridge University Press"
+    }
+  },
+  {
+    "entry_key": "andrews2025glaisher_t2d",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.91,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "On Glaisher's Partition Theorem",
+        "authors": [
+          "George E. Andrews",
+          "Aritram Dhar"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus",
+      "change_set": {
+        "author": {
+          "old": "Andrews, George E. and others",
+          "new": "George E. Andrews and Aritram Dhar"
+        },
+        "journal": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.91
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "andrews2025glaisher_t2d",
+      "ENTRYTYPE": "article",
+      "author": "Andrews, George E. and others",
+      "title": "On Glaisher's Partition Theorem",
+      "year": "2025",
+      "eprint": "2512.12346"
+    },
+    "corrected": {
+      "ID": "andrews2025glaisher_t2d",
+      "ENTRYTYPE": "article",
+      "author": "George E. Andrews and Aritram Dhar",
+      "title": "On Glaisher's Partition Theorem",
+      "year": "2025",
+      "eprint": "2512.12346",
+      "journal": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "tao2025sumdiff_t2e",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2025sumdiff_t2e",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "journal": "{arXiv},  % should be no journal or preprint",
+      "year": "2025",
+      "eprint": "2511.15135"
+    },
+    "corrected": {
+      "ID": "tao2025sumdiff_t2e",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "journal": "{arXiv},  % should be no journal or preprint",
+      "year": "2025",
+      "eprint": "2511.15135",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "wiles1995modular_t2f",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.2307/2118559"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "wiles1995modular_t2f",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "volume": "142",
+      "pages": "443--551",
+      "year": "1995"
+    },
+    "corrected": {
+      "ID": "wiles1995modular_t2f",
+      "ENTRYTYPE": "article",
+      "author": "Andrew Wiles",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "volume": "142",
+      "pages": "443--551",
+      "year": "1995",
+      "doi": "10.2307/2118559"
+    }
+  },
+  {
+    "entry_key": "guillera2018ramanujan_t2g",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "A method for proving Ramanujan series for 1/pi",
+        "authors": [
+          "Jesus Guillera"
+        ],
+        "year": "2018",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Guillera, Jes\\'us",
+          "new": "Jesus Guillera"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "guillera2018ramanujan_t2g",
+      "ENTRYTYPE": "misc",
+      "author": "Guillera, Jes\\'us",
+      "title": "A method for proving Ramanujan series for 1/pi",
+      "year": "2018",
+      "eprint": "1807.07394"
+    },
+    "corrected": {
+      "ID": "guillera2018ramanujan_t2g",
+      "ENTRYTYPE": "misc",
+      "author": "Jesus Guillera",
+      "title": "A method for proving Ramanujan series for 1/pi",
+      "year": "2018",
+      "eprint": "1807.07394",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "apostol1974mathematical_t2h",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 0.9800000000000002,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Mathematical Analysis",
+        "authors": [
+          "Tom M. Apostol"
+        ],
+        "year": "1974",
+        "venue": "Addison-Wesley",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",
+      "change_set": {
+        "author": {
+          "old": "Apostol, Tom M.",
+          "new": "Tom M. Apostol"
+        },
+        "year": {
+          "old": "1975",
+          "new": "1974"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Addison-Wesley"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.9800000000000002
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "apostol1974mathematical_t2h",
+      "ENTRYTYPE": "book",
+      "author": "Apostol, Tom M.",
+      "title": "Mathematical Analysis",
+      "publisher": "Addison-Wesley",
+      "year": "1975"
+    },
+    "corrected": {
+      "ID": "apostol1974mathematical_t2h",
+      "ENTRYTYPE": "book",
+      "author": "Tom M. Apostol",
+      "title": "Mathematical Analysis",
+      "publisher": "Addison-Wesley",
+      "year": "1974",
+      "booktitle": "Addison-Wesley"
+    }
+  },
+  {
+    "entry_key": "tao2007goodmath_t2i",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "What is good mathematics?",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2007",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, T.",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2007goodmath_t2i",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, T.",
+      "title": "What is good mathematics?",
+      "year": "2007",
+      "eprint": "math/0702396"
+    },
+    "corrected": {
+      "ID": "tao2007goodmath_t2i",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "What is good mathematics?",
+      "year": "2007",
+      "eprint": "math/0702396",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "lacey2006small_t2j",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Small Ball and Discrepancy Inequalities",
+        "authors": [
+          "Michael T. Lacey"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Lacey, Michael T.",
+          "new": "Michael T. Lacey"
+        },
+        "journal": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "lacey2006small_t2j",
+      "ENTRYTYPE": "article",
+      "author": "Lacey, Michael T.",
+      "title": "Small Ball and Discrepancy Inequalities",
+      "year": "2006",
+      "eprint": "math/0609816",
+      "pages": "1--20"
+    },
+    "corrected": {
+      "ID": "lacey2006small_t2j",
+      "ENTRYTYPE": "article",
+      "author": "Michael T. Lacey",
+      "title": "Small Ball and Discrepancy Inequalities",
+      "year": "2006",
+      "eprint": "math/0609816",
+      "pages": "1--20",
+      "journal": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "barany2023tverberg_t2k",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.5734712643678161,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Tverberg's theorem, a new proof",
+        "authors": [
+          "Imre Barany"
+        ],
+        "year": "2023",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.5734712643678161
+        ],
+        "top_titles": [
+          "Tverberg's theorem, a new proof"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.9655172413793103,
+        "top_author_similarity": 0.2
+      }
+    },
+    "original": {
+      "ID": "barany2023tverberg_t2k",
+      "ENTRYTYPE": "misc",
+      "author": "B\\'ar\\'any, Imre",
+      "title": "Tverberg's theorem: a new proof",
+      "year": "2023",
+      "eprint": "2308.10105"
+    },
+    "corrected": {
+      "ID": "barany2023tverberg_t2k",
+      "ENTRYTYPE": "misc",
+      "author": "B\\'ar\\'any, Imre",
+      "title": "Tverberg's theorem: a new proof",
+      "year": "2023",
+      "eprint": "2308.10105"
+    }
+  },
+  {
+    "entry_key": "tao2006perelman_t2l",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.8956322624743678,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title=0.99, high_author_bonus",
+      "change_set": {
+        "title": {
+          "old": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+          "new": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        },
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.8956322624743678
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2006perelman_t2l",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "journal": "preprint",
+      "year": "2006"
+    },
+    "corrected": {
+      "ID": "tao2006perelman_t2l",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+      "journal": "preprint",
+      "year": "2006",
+      "booktitle": "arXiv preprint"
+    }
+  },
+  {
+    "entry_key": "wiles1995modular_t2m",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        },
+        "journal": {
+          "old": "",
+          "new": "Annals of Mathematics"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.2307/2118559"
+        },
+        "pages": {
+          "old": "",
+          "new": "443--551"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "wiles1995modular_t2m",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "booktitle": "Annals of Mathematics",
+      "year": "1995"
+    },
+    "corrected": {
+      "ID": "wiles1995modular_t2m",
+      "ENTRYTYPE": "article",
+      "author": "Andrew Wiles",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "booktitle": "Annals of Mathematics",
+      "year": "1995",
+      "journal": "Annals of Mathematics",
+      "doi": "10.2307/2118559",
+      "pages": "443--551"
+    }
+  },
+  {
+    "entry_key": "tao2006additive_t2n",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Additive Combinatorics",
+        "authors": [
+          "Terence Tao",
+          "Van H. Vu"
+        ],
+        "year": "2006",
+        "venue": "Cambridge University Press",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Vu, Van H. and Tao, Terence",
+          "new": "Terence Tao and Van H. Vu"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Cambridge University Press"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2006additive_t2n",
+      "ENTRYTYPE": "book",
+      "author": "Vu, Van H. and Tao, Terence",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006"
+    },
+    "corrected": {
+      "ID": "tao2006additive_t2n",
+      "ENTRYTYPE": "book",
+      "author": "Terence Tao and Van H. Vu",
+      "title": "Additive Combinatorics",
+      "publisher": "Cambridge University Press",
+      "year": "2006",
+      "booktitle": "Cambridge University Press"
+    }
+  },
+  {
+    "entry_key": "tao2025sumdiff_t2o",
+    "decision": {
+      "status": "high_confidence_corrected",
+      "confidence": 1.0,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "title_exact, high_title_bonus, high_author_bonus",
+      "change_set": {
+        "author": {
+          "old": "Tao, Terence",
+          "new": "Terence Tao"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "arXiv preprint"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          1.0
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "tao2025sumdiff_t2o",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "year": "2025",
+      "eprint": "2511.15136"
+    },
+    "corrected": {
+      "ID": "tao2025sumdiff_t2o",
+      "ENTRYTYPE": "misc",
+      "author": "Terence Tao",
+      "title": "Sum-difference exponents for boundedly many slopes, and rational complexity",
+      "year": "2025",
+      "eprint": "2511.15136",
+      "booktitle": "arXiv preprint"
+    }
+  }
+]

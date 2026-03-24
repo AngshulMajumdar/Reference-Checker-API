@@ -1,0 +1,11 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+deeplearning_goodfellow_fake_collision,high_confidence_corrected,0.9900000000000001,"title_exact, high_title_bonus, high_author_bonus",Deep Learning,gold,2
+wiles1995modular_t3a,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Modular elliptic curves and Fermat's last theorem,gold,3
+tao_perelman_notes,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Notes on Perelman's papers,gold,2
+tao_namevar_t3b,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",What is good mathematics?,gold,2
+perelman_original_t3c,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",The entropy formula for the Ricci flow and its geometric applications,gold,2
+taoVu2006additive_t3d,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Additive Combinatorics,gold,2
+ramanujan_many_titles,unresolved,0.0,no candidates,,,0
+wiles_taylor_collaborative,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Ring theoretic properties of certain Hecke algebras,gold,1
+tao_analysis_paper,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Mathematical exploration and discovery at scale,gold,2
+andrews_partition_many,llm_adjudicated,0.9100000000000001,"title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",Euler's partition theorem and generalizations,gold,3

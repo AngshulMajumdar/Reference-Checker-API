@@ -1,0 +1,11 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+wiles1995modular,exact_verified,1.0,"doi_match, title_exact, high_title_bonus, high_author_bonus",Modular elliptic curves and Fermat's last theorem,gold,1
+tao2006perelman,llm_adjudicated,0.8447231715652769,"title=0.99, high_author_bonus",Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,3
+tao2006additive,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Additive Combinatorics,gold,2
+andrews2025glaisher,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",On Glaisher's Partition Theorem,gold,1
+tao2025sumdiff,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus","Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2
+apostol1974mathematical,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Mathematical Analysis,gold,2
+guillera2018ramanujan,llm_adjudicated,0.917142857142857,"title=1.00, high_author_bonus",A method for proving Ramanujan series for 1/pi,gold,2
+tao2007goodmath,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",What is good mathematics?,gold,2
+lacey2006small,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Small Ball and Discrepancy Inequalities,gold,1
+barany2023tverberg,review_needed,0.7760000000000001,ambiguous or unsafe match,"Tverberg's theorem, a new proof",gold,0

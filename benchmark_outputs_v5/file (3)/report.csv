@@ -1,0 +1,16 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+wiles1995modular_t2a,high_confidence_corrected,0.9800000000000002,"title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",Modular elliptic curves and Fermat's last theorem,gold,3
+tao2006perelman_t2b,llm_adjudicated,0.8505413533834586,"title=0.99, high_author_bonus",Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,3
+tao2006additive_t2c,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Additive Combinatorics,gold,2
+andrews2025glaisher_t2d,llm_adjudicated,0.91,"title_exact, high_title_bonus",On Glaisher's Partition Theorem,gold,2
+tao2025sumdiff_t2e,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus","Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2
+wiles1995modular_t2f,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Modular elliptic curves and Fermat's last theorem,gold,2
+guillera2018ramanujan_t2g,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",A method for proving Ramanujan series for 1/pi,gold,2
+apostol1974mathematical_t2h,high_confidence_corrected,0.9800000000000002,"title_exact, high_title_bonus, high_author_bonus, year_mismatch_penalty",Mathematical Analysis,gold,3
+tao2007goodmath_t2i,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",What is good mathematics?,gold,2
+lacey2006small_t2j,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Small Ball and Discrepancy Inequalities,gold,2
+barany2023tverberg_t2k,review_needed,0.5734712643678161,ambiguous or unsafe match,"Tverberg's theorem, a new proof",gold,0
+tao2006perelman_t2l,llm_adjudicated,0.8956322624743678,"title=0.99, high_author_bonus",Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,3
+wiles1995modular_t2m,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Modular elliptic curves and Fermat's last theorem,gold,4
+tao2006additive_t2n,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus",Additive Combinatorics,gold,2
+tao2025sumdiff_t2o,high_confidence_corrected,1.0,"title_exact, high_title_bonus, high_author_bonus","Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2

@@ -1,0 +1,6 @@
+tier,entries_parsed,apparent_entries,parse_failures_est,safe_accept,flagged,changed,unchanged,duplicates_found,status_high_confidence_corrected,status_llm_adjudicated,status_exact_verified,status_review_needed,status_unresolved
+file (2),10,10,0,9,1,9,1,0,6,2,1.0,1.0,0.0
+file (3),15,15,0,14,1,14,1,5,11,3,0.0,1.0,0.0
+file (4),10,10,0,9,1,9,1,0,8,1,0.0,0.0,1.0
+file (5),10,10,0,3,7,3,7,2,1,2,0.0,1.0,6.0
+file (6),11,11,0,4,7,4,7,0,3,1,0.0,1.0,6.0

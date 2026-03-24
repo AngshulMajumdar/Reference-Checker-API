@@ -1,0 +1,12 @@
+[
+  "tests/test_benchmark.py::test_benchmark_runner_outputs",
+  "tests/test_document_ingestion.py::test_docx_ingestion",
+  "tests/test_document_ingestion.py::test_pdf_ingestion",
+  "tests/test_online_improvements.py::test_crossref_uses_cache",
+  "tests/test_online_improvements.py::test_json_cache_roundtrip",
+  "tests/test_pipeline.py::test_ambiguous_near_miss_is_not_auto_corrected",
+  "tests/test_pipeline.py::test_broken_entry_recovery",
+  "tests/test_pipeline.py::test_exactish_and_typo_and_unresolved",
+  "tests/test_pipeline.py::test_txt_upload_with_comments_and_headers",
+  "tests_api/test_api.py::test_verify_endpoint"
+]

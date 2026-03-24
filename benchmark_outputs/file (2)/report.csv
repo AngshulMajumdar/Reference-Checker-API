@@ -1,0 +1,11 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+wiles1995modular,exact_verified,1.0,"doi_match, title_exact",Modular elliptic curves and Fermat's last theorem,gold,1
+tao2006perelman,review_needed,0.6980587833219412,ambiguous or unsafe match,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,0
+tao2006additive,llm_adjudicated,0.8418181818181818,title_exact,Additive Combinatorics,gold,2
+andrews2025glaisher,llm_adjudicated,0.8647058823529412,title_exact,On Glaisher's Partition Theorem,gold,1
+tao2025sumdiff,llm_adjudicated,0.8418181818181818,title_exact,"Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2
+apostol1974mathematical,llm_adjudicated,0.8200000000000001,title_exact,Mathematical Analysis,gold,2
+guillera2018ramanujan,review_needed,0.7106288032454362,ambiguous or unsafe match,A method for proving Ramanujan series for 1/pi,gold,0
+tao2007goodmath,llm_adjudicated,0.8418181818181818,title_exact,What is good mathematics?,gold,2
+lacey2006small,llm_adjudicated,0.8800000000000001,title_exact,Small Ball and Discrepancy Inequalities,gold,1
+barany2023tverberg,llm_adjudicated,0.8200000000000001,title_exact,"Tverberg's theorem, a new proof",gold,2

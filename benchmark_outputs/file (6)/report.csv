@@ -1,0 +1,12 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+broken_missing_comma,llm_adjudicated,0.8900000000000001,title_exact,Modular elliptic curves and Fermat's last theorem,gold,3
+tao2006perelman_unicode,review_needed,0.6980587833219412,ambiguous or unsafe match,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,0
+mathheavy,unresolved,0.0,no candidates,,,0
+mixed_content,unresolved,0.0,no candidates,,,0
+apostol1974,llm_adjudicated,0.8200000000000001,title_exact,Mathematical Analysis,gold,2
+no_braces_title,review_needed,0.8118181818181818,ambiguous or unsafe match,What is good mathematics?,gold,0
+extra_braces,unresolved,0.39917667238421956,low-confidence or likely fake/near-miss,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,0
+unicode_german,unresolved,0.0,no candidates,,,0
+broken_brace,unresolved,0.0,no candidates,,,0
+extra_field,unresolved,0.0,no candidates,,,0
+eol_comment,unresolved,0.0,no candidates,,,0

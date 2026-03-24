@@ -1,0 +1,11 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+deeplearning_goodfellow_fake_collision,llm_adjudicated,0.8242857142857143,title_exact,Deep Learning,gold,2
+wiles1995modular_t3a,llm_adjudicated,0.8900000000000001,title_exact,Modular elliptic curves and Fermat's last theorem,gold,3
+tao_perelman_notes,llm_adjudicated,0.8418181818181818,title_exact,Notes on Perelman's papers,gold,2
+tao_namevar_t3b,unresolved,0.6664705882352943,low-confidence or likely fake/near-miss,What is good mathematics?,gold,0
+perelman_original_t3c,llm_adjudicated,0.8200000000000001,title_exact,The entropy formula for the Ricci flow and its geometric applications,gold,2
+taoVu2006additive_t3d,unresolved,0.672,low-confidence or likely fake/near-miss,Additive Combinatorics,gold,0
+ramanujan_many_titles,unresolved,0.2261136999068034,low-confidence or likely fake/near-miss,A method for proving Ramanujan series for 1/pi,gold,0
+wiles_taylor_collaborative,llm_adjudicated,0.8900000000000001,title_exact,Ring theoretic properties of certain Hecke algebras,gold,1
+tao_analysis_paper,review_needed,0.8131428571428572,ambiguous or unsafe match,Mathematical exploration and discovery at scale,gold,0
+andrews_partition_many,review_needed,0.6747058823529412,ambiguous or unsafe match,Euler's partition theorem and generalizations,gold,0

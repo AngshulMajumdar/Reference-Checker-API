@@ -1,0 +1,16 @@
+entry_key,status,confidence,reason,selected_title,selected_source,n_changes
+wiles1995modular_t2a,review_needed,0.77,ambiguous or unsafe match,Modular elliptic curves and Fermat's last theorem,gold,0
+tao2006perelman_t2b,review_needed,0.6980587833219412,ambiguous or unsafe match,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,0
+tao2006additive_t2c,llm_adjudicated,0.8418181818181818,title_exact,Additive Combinatorics,gold,2
+andrews2025glaisher_t2d,review_needed,0.7947058823529412,ambiguous or unsafe match,On Glaisher's Partition Theorem,gold,0
+tao2025sumdiff_t2e,llm_adjudicated,0.8795104895104895,title_exact,"Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2
+wiles1995modular_t2f,llm_adjudicated,0.8900000000000001,title_exact,Modular elliptic curves and Fermat's last theorem,gold,2
+guillera2018ramanujan_t2g,llm_adjudicated,0.8282758620689656,title_exact,A method for proving Ramanujan series for 1/pi,gold,2
+apostol1974mathematical_t2h,review_needed,0.7,ambiguous or unsafe match,Mathematical Analysis,gold,0
+tao2007goodmath_t2i,unresolved,0.6964705882352943,low-confidence or likely fake/near-miss,What is good mathematics?,gold,0
+lacey2006small_t2j,review_needed,0.81,ambiguous or unsafe match,Small Ball and Discrepancy Inequalities,gold,0
+barany2023tverberg_t2k,review_needed,0.6712280701754385,ambiguous or unsafe match,"Tverberg's theorem, a new proof",gold,0
+tao2006perelman_t2l,review_needed,0.7489678742310321,ambiguous or unsafe match,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,gold,0
+wiles1995modular_t2m,llm_adjudicated,0.8900000000000001,title_exact,Modular elliptic curves and Fermat's last theorem,gold,4
+tao2006additive_t2n,unresolved,0.672,low-confidence or likely fake/near-miss,Additive Combinatorics,gold,0
+tao2025sumdiff_t2o,llm_adjudicated,0.8418181818181818,title_exact,"Sum-difference exponents for boundedly many slopes, and rational complexity",gold,2

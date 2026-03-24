@@ -1,0 +1,402 @@
+[
+  {
+    "entry_key": "fake_plausible_t4a",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "note": "Plausible fake – DO NOT correct/hallucinate real paper",
+      "eprint": "2410.99999",
+      "year": "2024",
+      "title": "A unified theory of convolutional transformers in number fields",
+      "author": "Smith, John and Doe, Jane",
+      "ENTRYTYPE": "misc",
+      "ID": "fake_plausible_t4a"
+    },
+    "corrected": {
+      "note": "Plausible fake – DO NOT correct/hallucinate real paper",
+      "eprint": "2410.99999",
+      "year": "2024",
+      "title": "A unified theory of convolutional transformers in number fields",
+      "author": "Smith, John and Doe, Jane",
+      "ENTRYTYPE": "misc",
+      "ID": "fake_plausible_t4a"
+    }
+  },
+  {
+    "entry_key": "hybrid_corrupt_t4b",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "eprint": "math/999999",
+      "year": "2005",
+      "title": "Ricci flow and Fermat's conjecture",
+      "author": "Tao, T. and Perelman, G.",
+      "ENTRYTYPE": "misc",
+      "ID": "hybrid_corrupt_t4b"
+    },
+    "corrected": {
+      "eprint": "math/999999",
+      "year": "2005",
+      "title": "Ricci flow and Fermat's conjecture",
+      "author": "Tao, T. and Perelman, G.",
+      "ENTRYTYPE": "misc",
+      "ID": "hybrid_corrupt_t4b"
+    }
+  },
+  {
+    "entry_key": "near_miss_t4c",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.6931182795698925,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.6931182795698925
+        ],
+        "top_titles": [
+          "Modular elliptic curves and Fermat's last theorem"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.946236559139785,
+        "top_author_similarity": 0.5
+      }
+    },
+    "original": {
+      "year": "1995",
+      "journal": "Annals of Mathematics",
+      "title": "Modular elliptic curves and Fermat's theorem",
+      "author": "Wiles, Andrew",
+      "ENTRYTYPE": "misc",
+      "ID": "near_miss_t4c"
+    },
+    "corrected": {
+      "year": "1995",
+      "journal": "Annals of Mathematics",
+      "title": "Modular elliptic curves and Fermat's theorem",
+      "author": "Wiles, Andrew",
+      "ENTRYTYPE": "misc",
+      "ID": "near_miss_t4c"
+    }
+  },
+  {
+    "entry_key": "duplicate_same_t4d",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.6980587833219412,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.6980587833219412
+        ],
+        "top_titles": [
+          "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.9924812030075187,
+        "top_author_similarity": 0.6363636363636364
+      }
+    },
+    "original": {
+      "key": "dup1",
+      "eprint": "math/0610903",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "duplicate_same_t4d"
+    },
+    "corrected": {
+      "key": "dup1",
+      "eprint": "math/0610903",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "duplicate_same_t4d"
+    }
+  },
+  {
+    "entry_key": "duplicate_same_t4e",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.6980587833219412,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.6980587833219412
+        ],
+        "top_titles": [
+          "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.9924812030075187,
+        "top_author_similarity": 0.6363636363636364
+      }
+    },
+    "original": {
+      "ID": "duplicate_same_t4e",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "year": "2006",
+      "eprint": "math/0610903",
+      "key": "dup2"
+    },
+    "corrected": {
+      "ID": "duplicate_same_t4e",
+      "ENTRYTYPE": "misc",
+      "author": "Tao, Terence",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "year": "2006",
+      "eprint": "math/0610903",
+      "key": "dup2"
+    }
+  },
+  {
+    "entry_key": "fake_title_t4f",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "note": "cross-domain fake – flag",
+      "year": "2015",
+      "title": "Generative Adversarial Nets for elliptic curves",
+      "author": "Goodfellow, Ian and others",
+      "ENTRYTYPE": "misc",
+      "ID": "fake_title_t4f"
+    },
+    "corrected": {
+      "note": "cross-domain fake – flag",
+      "year": "2015",
+      "title": "Generative Adversarial Nets for elliptic curves",
+      "author": "Goodfellow, Ian and others",
+      "ENTRYTYPE": "misc",
+      "ID": "fake_title_t4f"
+    }
+  },
+  {
+    "entry_key": "wiles_near_miss_journal",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.77,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular forms and elliptic curves",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1993",
+        "venue": "Inventiones Mathematicae",
+        "doi": null,
+        "pages": null,
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.77
+        ],
+        "top_titles": [
+          "Modular forms and elliptic curves"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 1.0,
+        "top_author_similarity": 0.5
+      }
+    },
+    "original": {
+      "ID": "wiles_near_miss_journal",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular forms and elliptic curves",
+      "journal": "Inventiones Mathematicae",
+      "year": "{1993}  % near but different paper"
+    },
+    "corrected": {
+      "ID": "wiles_near_miss_journal",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular forms and elliptic curves",
+      "journal": "Inventiones Mathematicae",
+      "year": "{1993}  % near but different paper"
+    }
+  },
+  {
+    "entry_key": "tao_fake_collaborator",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "note": "adversarial plausible fake",
+      "year": "2023",
+      "title": "Deep learning meets additive combinatorics",
+      "author": "Tao, Terence and Hinton, Geoffrey",
+      "ENTRYTYPE": "misc",
+      "ID": "tao_fake_collaborator"
+    },
+    "corrected": {
+      "note": "adversarial plausible fake",
+      "year": "2023",
+      "title": "Deep learning meets additive combinatorics",
+      "author": "Tao, Terence and Hinton, Geoffrey",
+      "ENTRYTYPE": "misc",
+      "ID": "tao_fake_collaborator"
+    }
+  },
+  {
+    "entry_key": "hybrid_multi_error_t4i",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.29085769980506826,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "On Glaisher's Partition Theorem",
+        "authors": [
+          "George E. Andrews",
+          "Aritram Dhar"
+        ],
+        "year": "2025",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "low-confidence or likely fake/near-miss",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.29085769980506826
+        ],
+        "top_titles": [
+          "On Glaisher's Partition Theorem"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.8157894736842105,
+        "top_author_similarity": 0.5185185185185186
+      }
+    },
+    "original": {
+      "ID": "hybrid_multi_error_t4i",
+      "ENTRYTYPE": "misc",
+      "author": "Andrews, G.",
+      "title": "On Glaisher's theorem and partition functions",
+      "year": "2026",
+      "eprint": "{2512.12347}  % wrong year + slight title"
+    },
+    "corrected": {
+      "ID": "hybrid_multi_error_t4i",
+      "ENTRYTYPE": "misc",
+      "author": "Andrews, G.",
+      "title": "On Glaisher's theorem and partition functions",
+      "year": "2026",
+      "eprint": "{2512.12347}  % wrong year + slight title"
+    }
+  },
+  {
+    "entry_key": "perelman_tao_mix_t4j",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "year": "2007",
+      "title": "Ricci flow and Poincar\\'e conjecture: PDE view",
+      "author": "Perelman, Grigori and Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "perelman_tao_mix_t4j"
+    },
+    "corrected": {
+      "year": "2007",
+      "title": "Ricci flow and Poincar\\'e conjecture: PDE view",
+      "author": "Perelman, Grigori and Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "perelman_tao_mix_t4j"
+    }
+  }
+]

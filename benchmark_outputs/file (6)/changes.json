@@ -1,0 +1,417 @@
+[
+  {
+    "entry_key": "broken_missing_comma",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.8900000000000001,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Modular elliptic curves and Fermat's last theorem",
+        "authors": [
+          "Andrew Wiles"
+        ],
+        "year": "1995",
+        "venue": "Annals of Mathematics",
+        "doi": "10.2307/2118559",
+        "pages": "443--551",
+        "entry_type": "article",
+        "raw": {}
+      },
+      "reason": "title_exact",
+      "change_set": {
+        "author": {
+          "old": "Wiles, Andrew",
+          "new": "Andrew Wiles"
+        },
+        "doi": {
+          "old": "",
+          "new": "10.2307/2118559"
+        },
+        "pages": {
+          "old": "",
+          "new": "443--551"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.8900000000000001
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "ID": "broken_missing_comma",
+      "ENTRYTYPE": "article",
+      "author": "Wiles, Andrew",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "year": "1995"
+    },
+    "corrected": {
+      "ID": "broken_missing_comma",
+      "ENTRYTYPE": "article",
+      "author": "Andrew Wiles",
+      "title": "Modular elliptic curves and Fermat's last theorem",
+      "journal": "Annals of Mathematics",
+      "year": "1995",
+      "doi": "10.2307/2118559",
+      "pages": "443--551"
+    }
+  },
+  {
+    "entry_key": "tao2006perelman_unicode",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.6980587833219412,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.6980587833219412
+        ],
+        "top_titles": [
+          "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.9924812030075187,
+        "top_author_similarity": 0.6363636363636364
+      }
+    },
+    "original": {
+      "note": "with accents: Poincaré → keep",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2006perelman_unicode"
+    },
+    "corrected": {
+      "note": "with accents: Poincaré → keep",
+      "year": "2006",
+      "title": "Perelman's proof of the Poincar\\'e conjecture: a nonlinear PDE perspective",
+      "author": "Tao, Terence",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2006perelman_unicode"
+    }
+  },
+  {
+    "entry_key": "mathheavy",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "note": "preserve math in output",
+      "year": "2006",
+      "journal": "some journal",
+      "title": "On \\( \\ell_1 \\) minimization and sparse recovery",
+      "author": "Cand\\`es, Emmanuel J.",
+      "ENTRYTYPE": "article",
+      "ID": "mathheavy"
+    },
+    "corrected": {
+      "note": "preserve math in output",
+      "year": "2006",
+      "journal": "some journal",
+      "title": "On \\( \\ell_1 \\) minimization and sparse recovery",
+      "author": "Cand\\`es, Emmanuel J.",
+      "ENTRYTYPE": "article",
+      "ID": "mathheavy"
+    }
+  },
+  {
+    "entry_key": "mixed_content",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "ID": "mixed_content",
+      "ENTRYTYPE": "misc"
+    },
+    "corrected": {
+      "ID": "mixed_content",
+      "ENTRYTYPE": "misc"
+    }
+  },
+  {
+    "entry_key": "apostol1974",
+    "decision": {
+      "status": "llm_adjudicated",
+      "confidence": 0.8200000000000001,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Mathematical Analysis",
+        "authors": [
+          "Tom M. Apostol"
+        ],
+        "year": "1974",
+        "venue": "Addison-Wesley",
+        "doi": null,
+        "pages": null,
+        "entry_type": "book",
+        "raw": {}
+      },
+      "reason": "title_exact",
+      "change_set": {
+        "author": {
+          "old": "Apostol, Tom M.",
+          "new": "Tom M. Apostol"
+        },
+        "booktitle": {
+          "old": "",
+          "new": "Addison-Wesley"
+        }
+      },
+      "review_payload": {
+        "top_candidates": [
+          0.8200000000000001
+        ],
+        "ambiguity_margin": null
+      }
+    },
+    "original": {
+      "year": "1974",
+      "title": "Mathematical Analysis",
+      "author": "Apostol, Tom M.",
+      "ENTRYTYPE": "book",
+      "ID": "apostol1974"
+    },
+    "corrected": {
+      "ID": "apostol1974",
+      "ENTRYTYPE": "book",
+      "year": "1974",
+      "title": "Mathematical Analysis",
+      "author": "Tom M. Apostol",
+      "booktitle": "Addison-Wesley"
+    }
+  },
+  {
+    "entry_key": "no_braces_title",
+    "decision": {
+      "status": "review_needed",
+      "confidence": 0.8118181818181818,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "What is good mathematics?",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2007",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "ambiguous or unsafe match",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.8118181818181818
+        ],
+        "top_titles": [
+          "What is good mathematics?"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 1.0,
+        "top_author_similarity": 0.6363636363636364
+      }
+    },
+    "original": {
+      "ID": "no_braces_title",
+      "ENTRYTYPE": "article",
+      "author": "Tao, Terence",
+      "title": "What is good mathematics?",
+      "year": "2007"
+    },
+    "corrected": {
+      "ID": "no_braces_title",
+      "ENTRYTYPE": "article",
+      "author": "Tao, Terence",
+      "title": "What is good mathematics?",
+      "year": "2007"
+    }
+  },
+  {
+    "entry_key": "extra_braces",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.39917667238421956,
+      "selected_candidate": {
+        "source": "gold",
+        "title": "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective",
+        "authors": [
+          "Terence Tao"
+        ],
+        "year": "2006",
+        "venue": "arXiv preprint",
+        "doi": null,
+        "pages": null,
+        "entry_type": "misc",
+        "raw": {}
+      },
+      "reason": "low-confidence or likely fake/near-miss",
+      "change_set": {},
+      "review_payload": {
+        "top_candidates": [
+          0.39917667238421956
+        ],
+        "top_titles": [
+          "Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective"
+        ],
+        "source_counts": {
+          "gold": 1
+        },
+        "score_gap": null,
+        "top_title_similarity": 0.7547169811320755,
+        "top_author_similarity": 0.6363636363636364
+      }
+    },
+    "original": {
+      "year": "2006",
+      "title": "{Perelman's proof of the Poincar\\'e conjecture}",
+      "author": "{Tao, Terence}",
+      "ENTRYTYPE": "misc",
+      "ID": "extra_braces"
+    },
+    "corrected": {
+      "year": "2006",
+      "title": "{Perelman's proof of the Poincar\\'e conjecture}",
+      "author": "{Tao, Terence}",
+      "ENTRYTYPE": "misc",
+      "ID": "extra_braces"
+    }
+  },
+  {
+    "entry_key": "unicode_german",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "note": "non-English title test",
+      "year": "2020",
+      "title": "Über die Zeta-Funktion",
+      "author": "Müller, Peter",
+      "ENTRYTYPE": "article",
+      "ID": "unicode_german"
+    },
+    "corrected": {
+      "note": "non-English title test",
+      "year": "2020",
+      "title": "Über die Zeta-Funktion",
+      "author": "Müller, Peter",
+      "ENTRYTYPE": "article",
+      "ID": "unicode_german"
+    }
+  },
+  {
+    "entry_key": "broken_brace",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "ID": "broken_brace",
+      "ENTRYTYPE": "misc",
+      "author": "{Tao, Terence",
+      "title": "Broken",
+      "year": "2025"
+    },
+    "corrected": {
+      "ID": "broken_brace",
+      "ENTRYTYPE": "misc",
+      "author": "{Tao, Terence",
+      "title": "Broken",
+      "year": "2025"
+    }
+  },
+  {
+    "entry_key": "extra_field",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "junk": "ignore me",
+      "year": "1976",
+      "title": "Partitions",
+      "author": "Andrews, George E.",
+      "ENTRYTYPE": "article",
+      "ID": "extra_field"
+    },
+    "corrected": {
+      "junk": "ignore me",
+      "year": "1976",
+      "title": "Partitions",
+      "author": "Andrews, George E.",
+      "ENTRYTYPE": "article",
+      "ID": "extra_field"
+    }
+  },
+  {
+    "entry_key": "eol_comment",
+    "decision": {
+      "status": "unresolved",
+      "confidence": 0.0,
+      "selected_candidate": null,
+      "reason": "no candidates",
+      "change_set": {},
+      "review_payload": null
+    },
+    "original": {
+      "ID": "eol_comment",
+      "ENTRYTYPE": "misc",
+      "author": "Guillera, Jesús",
+      "title": "Ramanujan series",
+      "year": "2018"
+    },
+    "corrected": {
+      "ID": "eol_comment",
+      "ENTRYTYPE": "misc",
+      "author": "Guillera, Jesús",
+      "title": "Ramanujan series",
+      "year": "2018"
+    }
+  }
+]

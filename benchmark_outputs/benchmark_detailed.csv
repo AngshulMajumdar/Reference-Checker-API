@@ -1,0 +1,57 @@
+tier,entry_key,status,confidence,n_changes,selected_title,expected_behavior,benchmark_ok
+file (2),wiles1995modular,exact_verified,1.0,1,Modular elliptic curves and Fermat's last theorem,safe_accept,True
+file (2),tao2006perelman,review_needed,0.6980587833219412,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (2),tao2006additive,llm_adjudicated,0.8418181818181818,2,Additive Combinatorics,safe_accept,True
+file (2),andrews2025glaisher,llm_adjudicated,0.8647058823529412,1,On Glaisher's Partition Theorem,safe_accept,True
+file (2),tao2025sumdiff,llm_adjudicated,0.8418181818181818,2,"Sum-difference exponents for boundedly many slopes, and rational complexity",safe_accept,True
+file (2),apostol1974mathematical,llm_adjudicated,0.8200000000000001,2,Mathematical Analysis,safe_accept,True
+file (2),guillera2018ramanujan,review_needed,0.7106288032454362,0,A method for proving Ramanujan series for 1/pi,safe_accept,True
+file (2),tao2007goodmath,llm_adjudicated,0.8418181818181818,2,What is good mathematics?,safe_accept,True
+file (2),lacey2006small,llm_adjudicated,0.8800000000000001,1,Small Ball and Discrepancy Inequalities,safe_accept,True
+file (2),barany2023tverberg,llm_adjudicated,0.8200000000000001,2,"Tverberg's theorem, a new proof",safe_accept,True
+file (3),wiles1995modular_t2a,review_needed,0.77,0,Modular elliptic curves and Fermat's last theorem,safe_accept,True
+file (3),tao2006perelman_t2b,review_needed,0.6980587833219412,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (3),tao2006additive_t2c,llm_adjudicated,0.8418181818181818,2,Additive Combinatorics,safe_accept,True
+file (3),andrews2025glaisher_t2d,review_needed,0.7947058823529412,0,On Glaisher's Partition Theorem,safe_accept,True
+file (3),tao2025sumdiff_t2e,llm_adjudicated,0.8795104895104895,2,"Sum-difference exponents for boundedly many slopes, and rational complexity",safe_accept,True
+file (3),wiles1995modular_t2f,llm_adjudicated,0.8900000000000001,2,Modular elliptic curves and Fermat's last theorem,safe_accept,True
+file (3),guillera2018ramanujan_t2g,llm_adjudicated,0.8282758620689656,2,A method for proving Ramanujan series for 1/pi,safe_accept,True
+file (3),apostol1974mathematical_t2h,review_needed,0.7,0,Mathematical Analysis,safe_accept,True
+file (3),tao2007goodmath_t2i,unresolved,0.6964705882352943,0,What is good mathematics?,safe_accept,False
+file (3),lacey2006small_t2j,review_needed,0.81,0,Small Ball and Discrepancy Inequalities,safe_accept,True
+file (3),barany2023tverberg_t2k,review_needed,0.6712280701754385,0,"Tverberg's theorem, a new proof",safe_accept,True
+file (3),tao2006perelman_t2l,review_needed,0.7489678742310321,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (3),wiles1995modular_t2m,llm_adjudicated,0.8900000000000001,4,Modular elliptic curves and Fermat's last theorem,safe_accept,True
+file (3),tao2006additive_t2n,unresolved,0.672,0,Additive Combinatorics,safe_accept,False
+file (3),tao2025sumdiff_t2o,llm_adjudicated,0.8418181818181818,2,"Sum-difference exponents for boundedly many slopes, and rational complexity",safe_accept,True
+file (4),deeplearning_goodfellow_fake_collision,llm_adjudicated,0.8242857142857143,2,Deep Learning,review_or_safe,True
+file (4),wiles1995modular_t3a,llm_adjudicated,0.8900000000000001,3,Modular elliptic curves and Fermat's last theorem,review_or_safe,True
+file (4),tao_perelman_notes,llm_adjudicated,0.8418181818181818,2,Notes on Perelman's papers,review_or_safe,True
+file (4),tao_namevar_t3b,unresolved,0.6664705882352943,0,What is good mathematics?,safe_accept,False
+file (4),perelman_original_t3c,llm_adjudicated,0.8200000000000001,2,The entropy formula for the Ricci flow and its geometric applications,review_or_safe,True
+file (4),taoVu2006additive_t3d,unresolved,0.672,0,Additive Combinatorics,safe_accept,False
+file (4),ramanujan_many_titles,unresolved,0.2261136999068034,0,A method for proving Ramanujan series for 1/pi,review_or_safe,True
+file (4),wiles_taylor_collaborative,llm_adjudicated,0.8900000000000001,1,Ring theoretic properties of certain Hecke algebras,review_or_safe,True
+file (4),tao_analysis_paper,review_needed,0.8131428571428572,0,Mathematical exploration and discovery at scale,safe_accept,True
+file (4),andrews_partition_many,review_needed,0.6747058823529412,0,Euler's partition theorem and generalizations,review_or_safe,True
+file (5),fake_plausible_t4a,unresolved,0.0,0,,must_flag,True
+file (5),hybrid_corrupt_t4b,unresolved,0.0,0,,must_flag,True
+file (5),near_miss_t4c,review_needed,0.6931182795698925,0,Modular elliptic curves and Fermat's last theorem,must_flag,True
+file (5),duplicate_same_t4d,review_needed,0.6980587833219412,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (5),duplicate_same_t4e,review_needed,0.6980587833219412,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (5),fake_title_t4f,unresolved,0.0,0,,must_flag,True
+file (5),wiles_near_miss_journal,review_needed,0.77,0,Modular forms and elliptic curves,must_flag,True
+file (5),tao_fake_collaborator,unresolved,0.0,0,,must_flag,True
+file (5),hybrid_multi_error_t4i,unresolved,0.2908576998050682,0,On Glaisher's Partition Theorem,review_or_safe,True
+file (5),perelman_tao_mix_t4j,unresolved,0.0,0,,must_flag,True
+file (6),broken_missing_comma,llm_adjudicated,0.8900000000000001,3,Modular elliptic curves and Fermat's last theorem,parse_only,True
+file (6),tao2006perelman_unicode,review_needed,0.6980587833219412,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,True
+file (6),mathheavy,unresolved,0.0,0,,review_or_safe,True
+file (6),mixed_content,unresolved,0.0,0,,parse_only,True
+file (6),apostol1974,llm_adjudicated,0.8200000000000001,2,Mathematical Analysis,review_or_safe,True
+file (6),no_braces_title,review_needed,0.8118181818181818,0,What is good mathematics?,safe_accept,True
+file (6),extra_braces,unresolved,0.3991766723842195,0,Perelman's proof of the Poincare conjecture: a nonlinear PDE perspective,safe_accept,False
+file (6),unicode_german,unresolved,0.0,0,,must_flag,True
+file (6),broken_brace,unresolved,0.0,0,,parse_only,True
+file (6),extra_field,unresolved,0.0,0,,review_or_safe,True
+file (6),eol_comment,unresolved,0.0,0,,review_or_safe,True

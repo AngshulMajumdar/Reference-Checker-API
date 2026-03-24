@@ -1,0 +1,83 @@
+{
+  "tiers": [
+    {
+      "tier": "file (2)",
+      "entries_parsed": 10,
+      "apparent_entries": 10,
+      "parse_failures_est": 0,
+      "safe_accept": 8,
+      "flagged": 2,
+      "changed": 8,
+      "unchanged": 2,
+      "duplicates_found": 0,
+      "status_llm_adjudicated": 7.0,
+      "status_review_needed": 2,
+      "status_exact_verified": 1.0,
+      "status_unresolved": 0.0
+    },
+    {
+      "tier": "file (3)",
+      "entries_parsed": 15,
+      "apparent_entries": 15,
+      "parse_failures_est": 0,
+      "safe_accept": 6,
+      "flagged": 9,
+      "changed": 6,
+      "unchanged": 9,
+      "duplicates_found": 5,
+      "status_llm_adjudicated": 6.0,
+      "status_review_needed": 7,
+      "status_exact_verified": 0.0,
+      "status_unresolved": 2.0
+    },
+    {
+      "tier": "file (4)",
+      "entries_parsed": 10,
+      "apparent_entries": 10,
+      "parse_failures_est": 0,
+      "safe_accept": 5,
+      "flagged": 5,
+      "changed": 5,
+      "unchanged": 5,
+      "duplicates_found": 0,
+      "status_llm_adjudicated": 5.0,
+      "status_review_needed": 2,
+      "status_exact_verified": 0.0,
+      "status_unresolved": 3.0
+    },
+    {
+      "tier": "file (5)",
+      "entries_parsed": 10,
+      "apparent_entries": 10,
+      "parse_failures_est": 0,
+      "safe_accept": 0,
+      "flagged": 10,
+      "changed": 0,
+      "unchanged": 10,
+      "duplicates_found": 2,
+      "status_llm_adjudicated": 0.0,
+      "status_review_needed": 4,
+      "status_exact_verified": 0.0,
+      "status_unresolved": 6.0
+    },
+    {
+      "tier": "file (6)",
+      "entries_parsed": 11,
+      "apparent_entries": 11,
+      "parse_failures_est": 0,
+      "safe_accept": 2,
+      "flagged": 9,
+      "changed": 2,
+      "unchanged": 9,
+      "duplicates_found": 0,
+      "status_llm_adjudicated": 2.0,
+      "status_review_needed": 2,
+      "status_exact_verified": 0.0,
+      "status_unresolved": 7.0
+    }
+  ],
+  "benchmark_ok_rate": 0.9107142857142857,
+  "total_entries": 56,
+  "total_parse_failures_est": 0,
+  "false_autocorrections_est": 0
+}
